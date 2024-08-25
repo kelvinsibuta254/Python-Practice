@@ -1,0 +1,14 @@
+rows = 5
+
+for i in range(1, rows + 1):
+  # Outer loop controls the number of rows
+  for j in range(1, i + 1):
+    # Inner loop prints asterisks for each row
+    print("*", end="")
+  print()  # Move to a new line after each row of asterisks
+
+
+  Here, the outer loop iterates from 1 to the number of rows (rows). 
+  The inner loop, nested within the outer loop, iterates from 1 to the 
+  current row number (i). This creates a right triangle pattern of asterisks,
+  where each row has one more asterisk than the previous one.

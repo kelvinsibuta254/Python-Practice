@@ -1,0 +1,5 @@
+In this example, the outer loop iterates from 1 to 10,
+representing the multiplication factors in each row. 
+The inner loop, nested within the outer loop, iterates from 1 to 10 again,
+ representing the factors in each column. 
+ The product is calculated and printed within the inner loop.

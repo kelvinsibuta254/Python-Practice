@@ -1,0 +1,19 @@
+outer_count = 5
+
+while outer_count > 0:
+  # Outer loop controls the number of times the inner loop runs
+  inner_count = 1
+  while inner_count <= outer_count:
+    # Inner loop repeats for each outer loop iteration
+    print(inner_count, end=" ")
+    inner_count += 1
+  print()  # Move to a new line after each outer loop iteration
+  outer_count -= 1
+
+The outer while loop controls how many times the inner loop runs. It starts at outer_count = 5 and keeps looping as long as outer_count is greater than 0.
+The inner while loop repeats for each iteration of the outer loop. It starts at inner_count = 1 and keeps looping as long as inner_count is less than or equal to the current outer_count value.
+Inside the inner loop, we print the current inner_count value and then increment it (inner_count += 1) to move on to the next number.
+After each inner loop finishes, the outer loop decreases outer_count by 1, preparing for the next iteration.
+Finally, a print() statement outside the inner loop moves the output to a new line after each outer loop completes, creating a countdown effect.
+
+Conquering Multidimensional Data: When you encounter data structures with multiple dimensions, like grids or tables, nested loops become your secret weapon. Imagine an outer loop iterating through rows, while an inner loop tackles elements within each row (or vice versa). This teamwork lets you process complex data structures efficiently.

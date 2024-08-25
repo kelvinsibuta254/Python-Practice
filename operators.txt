@@ -1,0 +1,8 @@
+and; returns true if both operators return true
+or; if either is true
+
+= is an assignment operator
+
+comparison operators include:
+
+==, <=, >=, !=

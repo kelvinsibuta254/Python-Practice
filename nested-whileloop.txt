@@ -1,0 +1,19 @@
+is a while loop within a while loop
+iterating over a list
+you first declare the lists
+declare variables i.e. i and j which will represent the index of one item at a time
+first initialize the variables e.g
+i = 0
+j = 0
+while i < len(list1): i.e while i < 3:
+
+if i becomes 3, we'll get outside of the loop
+increment the value of i
+while j < len(list2): i.e. while j < 3:
+
+print(list1[1], list2[j])
+increment j by 1 so that we can move to the next item in list 2
+add print() statement to ensure it prints on the next line
+
+since i and j are equal to 0
+list1[i] = list1[0] and list2[j] = list2[0]
